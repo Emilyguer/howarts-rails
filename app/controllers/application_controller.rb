@@ -1,2 +1,6 @@
-class ApplicationController < ActionController::Base
-end
+class PagesController < ApplicationController
+    def index
+      @characters = Character.all
+    end
+  end
+  
