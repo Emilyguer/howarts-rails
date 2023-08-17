@@ -1,0 +1,66 @@
+/* harry_potter.css */
+
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Changa', sans-serif;
+    font-size: 6rem;
+    color:#ae0001;
+  }
+  
+
+  .container {
+    background-size: cover;
+    padding: 50px 0;
+    color: white;
+  }
+
+
+  .list-group-item {
+    border: none;
+    color:#ae0001;
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-family: 'Changa', sans-serif;
+    font-size: 2rem;
+    list-style: none;
+    text-align: center;
+  }
+  .list-group-item strong {
+    color:white; 
+  }
+  
+
+  .list-group-item br {
+    display: none; 
+  }
+  
+  .gryffindor {
+    background-color: #740001;
+  }
+  
+  .slytherin {
+    background-color: #1A472A; 
+  }
+  
+  .hufflepuff {
+    background-color: #FFDB58;
+  }
+  
+  .ravenclaw {
+    background-color: #0E1A40;
+  }
+
+  .wampus {
+    background-color: #d3a625;
+  }
+
+  .thunderbird{
+ background-color:#0e1a40 ;
+  }
+
+  .horned{
+    background-color: #3d0a6a;
+  }

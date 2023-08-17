@@ -1,11 +1,17 @@
-
-<h1>Personajes de Harry Potter</h1>
-<ul>
-  <% @characters.each do |character| %>
-    <li>
-      <strong>Name:</strong> <%= character.name %><br>
-      <strong>Location:</strong> <%= character.location %><br>
-      <strong>House:</strong> <%= character.house %>
-    </li>
-  <% end %>
-</ul>
+<div class="container">
+  <h1>Personajes de Harry Potter</h1>
+  
+  <div class="row">
+    <div class="col-md-8">
+      <ul class="list-group">
+        <% @characters.each do |character| %>
+          <li class="list-group-item <%= character.house.downcase %>">
+            <strong>Name:</strong> <%= character.name %><br>
+            <strong>Location:</strong> <%= character.location %><br>
+            <strong>House:</strong> <%= character.house %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>
